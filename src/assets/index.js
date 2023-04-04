@@ -26,8 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+// import carrent from "./carrent.png";
+import henry from './henry.ico'
+import flexagenda from './flexagenda.png'
 import jobit from "./jobit.png";
+import miniworld from './miniworld.png'
 import tripguide from "./tripguide.png";
 
 export {
@@ -56,7 +59,10 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  // carrent,
+  // jobit,
+  henry,
+  flexagenda,
+  miniworld,
   tripguide,
 };

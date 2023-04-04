@@ -22,7 +22,7 @@ const ExperienceCard = ({ experience }) => (
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60px] h-[60%] object-contain"
+          className="w-[60px] h-[60%] object-contain rounded-full"
         />
       </div>
     }
@@ -52,8 +52,8 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>what I have done so far </p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <p className={styles.sectionSubText}>Que he hecho hasta ahora </p>
+        <h2 className={styles.sectionHeadText}>Experiencia laboral.</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
@@ -66,4 +66,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "");

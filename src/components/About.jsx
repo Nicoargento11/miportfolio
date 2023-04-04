@@ -31,8 +31,8 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction </p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>INTRODUCCIÓN </p>
+        <h2 className={styles.sectionHeadText}>Sobre mi.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
@@ -58,4 +58,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(About, "sobre mi");

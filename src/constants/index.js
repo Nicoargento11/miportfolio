@@ -19,24 +19,27 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    // carrent,
+    // jobit,
+    henry,
+    flexagenda,
+    miniworld,
     tripguide,
     threejs,
   } from "../assets";
   
   export const navLinks = [
     {
-      id: "about",
-      title: "About",
+      id: "sobre mi",
+      title: "sobre mi",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "Proyectos",
+      title: "Proyectos",
     },
     {
-      id: "contact",
-      title: "Contact",
+      id: "Contacto",
+      title: "Contacto",
     },
   ];
   
@@ -116,57 +119,57 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "[Academico] Proyecto Individual",
+      company_name: "SoyHenry",
+      icon: henry,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Enero 2023 - Febrero 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Resolución de problemas: enfrentarme a muchos desafíos y obstáculos. Aprender a resolver problemas y a encontrar soluciones creativas",
+        "Planificación y organización: planificacion y organizacion del tiempo y recursos para poder cumplir con los plazos y objetivos del proyecto",
+        "Creatividad: Capacidad de explorar nuevas ideas y soluciones creativas. Aprender a pensar de forma más creativa y a desarrollar nuevas habilidades.",
+        "Desarrollo de habilidades técnicas: oportunidad de aprender nuevas habilidades técnicas relacionadas con el desarrollo web.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "[Academico] Proyecto grupal",
+      company_name: "SoyHenry",
+      icon: henry,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Febrero 2023 - Marzo 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Colaboraracion con otros miembros del equipo y trabajo en conjunto hacia un objetivo común.",
+        "Comunicacion de manera efectiva con los demás miembros del equipo. Expresion de las ideas de manera clara y concisa. Escucha y retroalimentación constructiva a los demás.",
+        "Planificacion y organizacion de tareas y plazos en conjunto. Coordinacion de los esfuerzos de los miembros del equipo y cumplimiento con los plazos establecidos.",
+        "Resolucion de conflictos de manera efectiva y trabajo en equipo a pesar de las diferencias.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -207,16 +210,20 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "postgres",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "express",
           color: "pink-text-gradient",
         },
+        {
+          name: 'css',
+          color: 'orange-text-gradient',
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: miniworld,
+      source_code_link: "https://github.com/Nicoargento11/Henry-Pi-countries",
     },
     {
       name: "Flex-agenda",
@@ -228,16 +235,20 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "postgres",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "express",
           color: "pink-text-gradient",
         },
+        {
+          name: 'firebase',
+          color: 'orange-text-gradient',
+        }
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: flexagenda,
+      source_code_link: "https://github.com/Nicoargento11/FlexAgenda-Front",
     },
     // {
     //   name: "Coming soon",
